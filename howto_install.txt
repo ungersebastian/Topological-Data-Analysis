@@ -1,1 +1,9 @@
-python -m pip install -e N:\GitHub\Topological-Data-Analysis
+conda create -n tda python=3.9
+conda activate tda
+pip install numpy scikit-learn setuptools
+
+local:
+python -m pip install --use-pep517 -e <YOUR_PATH>\TopologicalDataAnalysis
+
+web:
+python -m pip install -e git+https://github.com/ungersebastian/TopologicalDataAnalysis#egg=TopologicalDataAnalysis

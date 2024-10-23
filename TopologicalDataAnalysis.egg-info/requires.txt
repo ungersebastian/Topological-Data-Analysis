@@ -1,2 +1,5 @@
 numpy>=1.16
-sklearn
+scikit-learn
+matplotlib
+pandas
+scipy
